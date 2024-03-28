@@ -12,3 +12,4 @@
 /Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/obj/Debug/net8.0/CSE210-Final.pdb
 /Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/obj/Debug/net8.0/CSE210-Final.genruntimeconfig.cache
 /Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/obj/Debug/net8.0/ref/CSE210-Final.dll
+/Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/obj/Debug/net8.0/CSE210-Final.sourcelink.json
