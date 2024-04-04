@@ -18,6 +18,7 @@ class Program {
         Files files = new Files();
         double trueShooting = 0;
         while (continueLoop) {
+            Console.WriteLine();
             Console.WriteLine("Please choose from the menu.\n" +
             "1 - Enter name\n" +
             "2 - Enter dream info\n" + 
@@ -48,6 +49,7 @@ class Program {
                     content = ($"Dream Team: {dt.Team}, Jersey Number: {dt.JerseyNumber}");
                     files = new Files(fileName, content);
                     files.WriteToFile();
+                    
                     break;
                 case "3":
                     Console.WriteLine("Enter name of file you wish to update.");
@@ -59,7 +61,7 @@ class Program {
                     type = Console.ReadLine();
                     TypeOfShot tos = new TypeOfShot(dribble, type);
                     if (tos.PointsType == "Two") {
-                        Console.WriteLine("Please enter shots made, followed by number of attempts");
+                        Console.WriteLine("Please enter shots made, followed by number of attempts.");
                         int makes = int.Parse(Console.ReadLine());
                         int trys = int.Parse(Console.ReadLine());
                         TwoPoints two = new TwoPoints(makes, trys);
@@ -67,9 +69,10 @@ class Program {
                         content = ($"Dribbles: {tos.Dribbles} 2FG: {two.ShotsMade} 2FGA: {two.ShotsAttempted} TS%: {trueShooting: 0.000}");
                         files = new Files(fileName, content);
                         files.WriteToFile();
+                        
                     }
                     else if (tos.PointsType == "Three") {
-                        Console.WriteLine("Please enter shots made, followed by number of attempts");
+                        Console.WriteLine("Please enter shots made, followed by number of attempts.");
                         int makes = int.Parse(Console.ReadLine());
                         int trys = int.Parse(Console.ReadLine());
                         ThreePoints three = new ThreePoints(makes, trys);
