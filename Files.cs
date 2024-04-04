@@ -16,6 +16,11 @@ public class Files {
         FileContent = fileContent;
     }
     
+    public void CreateFile() {
+        string filePath = FileName;
+        using (FileStream fs = File.Create(filePath)) {
+        }
+    }
   
     public void WriteToFile() {
         string name = FileName;

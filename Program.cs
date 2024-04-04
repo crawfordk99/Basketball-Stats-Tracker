@@ -37,6 +37,7 @@ class Program {
                     fileName = ($"{person.FirstName}{person.LastName}.txt");
                     content = ($"Name: {person.FirstName} {person.LastName}");
                     files = new Files(fileName, content);
+                    files.CreateFile();
                     files.WriteToFile();
                     break;
                 case "2":
@@ -97,6 +98,7 @@ class Program {
                     record = new Record(type, win, loss);
                     content = ($"Game Type- {record.Type}:{record.Wins} - {record.Loses}");
                     files = new Files (fileName, content);
+                    files.WriteToFile();
                     break;
                 case "5":
                     Console.WriteLine("Enter the name of the file you wish to load.");
