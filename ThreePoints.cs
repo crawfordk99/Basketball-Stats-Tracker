@@ -5,6 +5,9 @@ public class ThreePoints : FieldGoal {
     
    }
    public override double CalculateTrueShooting() {
-        return 0;
+        int shots = base.ShotsMade;
+        int attempts = base.ShotsAttempted;
+        double percentage = (double) shots/attempts;
+        return percentage * 1.5;
    }
 }

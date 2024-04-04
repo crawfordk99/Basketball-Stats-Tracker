@@ -2,6 +2,9 @@ public abstract class FieldGoal {
     private int _shotsMade;
     private int _shotsAttempted;
 
+    public int ShotsMade {get{return _shotsMade;} set{ _shotsMade = value;}}
+    public int ShotsAttempted {get{return _shotsAttempted;} set{_shotsAttempted = value;}}
+
     public FieldGoal() {}
     public FieldGoal(int shotsMade, int shotsAttempted) {
         _shotsMade = shotsMade;
@@ -10,3 +13,4 @@ public abstract class FieldGoal {
 
     public abstract double CalculateTrueShooting();
 }
+

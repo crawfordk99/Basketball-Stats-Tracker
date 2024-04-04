@@ -7,10 +7,9 @@ public class DreamTeam {
         _team = team;
         _jerseyNumber = jerseyNumber;
     }  
-    public string Team {get; set;}
-    public int JerseyNumber {get; set;}
+    public string Team {get{return _team;} set{_team = value;}}
+    public int JerseyNumber {get{return _jerseyNumber;} set{_jerseyNumber = value;}}
+    
 
-    public string GetTeam() {
-        return Team;
-    }
+
 }
