@@ -1,3 +1,4 @@
+// Keeping track of wins and losses depending on type of game
 public class Record {
     private string _type;
     private int _wins;

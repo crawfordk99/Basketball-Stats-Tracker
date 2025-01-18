@@ -1,3 +1,5 @@
+// Parent Class, to determine type of field goal, and set stats
+// to be kept tracked of
 public abstract class FieldGoal {
     private int _shotsMade;
     private int _shotsAttempted;

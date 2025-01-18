@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/CSE210-Final.csproj": {}
+    "/Users/keithcrawfordjr/Personal/projects/CSE210/Basketball-Stats-Tracker/CSE210-Final.csproj": {}
   },
   "projects": {
-    "/Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/CSE210-Final.csproj": {
+    "/Users/keithcrawfordjr/Personal/projects/CSE210/Basketball-Stats-Tracker/CSE210-Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/CSE210-Final.csproj",
+        "projectUniqueName": "/Users/keithcrawfordjr/Personal/projects/CSE210/Basketball-Stats-Tracker/CSE210-Final.csproj",
         "projectName": "CSE210-Final",
-        "projectPath": "/Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/CSE210-Final.csproj",
+        "projectPath": "/Users/keithcrawfordjr/Personal/projects/CSE210/Basketball-Stats-Tracker/CSE210-Final.csproj",
         "packagesPath": "/Users/keithcrawfordjr/.nuget/packages/",
-        "outputPath": "/Users/keithcrawfordjr/Personal/projects/CSE210/CSE210-Final/obj/",
+        "outputPath": "/Users/keithcrawfordjr/Personal/projects/CSE210/Basketball-Stats-Tracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/keithcrawfordjr/.nuget/NuGet/NuGet.Config"

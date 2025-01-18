@@ -1,3 +1,4 @@
+// Creating a profile for user to attach stats to
 public class Person {
     private string _firstName;
     private string _lastName;

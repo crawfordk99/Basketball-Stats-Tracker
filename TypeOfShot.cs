@@ -1,3 +1,5 @@
+// To separate shooting percentages depending on amount of dribbles 
+// taken beforehand, and to separate 2 pt shots from 3 pt shots
 public class TypeOfShot {
     private string _dribbles;
     private string _pointsType;

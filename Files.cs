@@ -1,5 +1,7 @@
 using System.IO;
 using System.Text;
+
+// Setting up file functions to keep track of stats in a file
 public class Files {
     private string _fileName;
     private string _fileContent;
